@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+
+    tools:context="com.example.admin.yuejian_22.Fragment.MyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+        <ImageView
+            android:src="@drawable/ic_timg"
+            android:id="@+id/my_timg"
+            android:layout_centerHorizontal="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+   <TextView
+       android:layout_below="@+id/my_timg"
+       android:id="@+id/my_name"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="dhp233"
+      />
+
+    <RadioGroup
+        android:layout_below="@+id/my_name"
+        android:background="@drawable/club_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:button="@null"
+            android:id="@+id/my_shaitu"
+            android:text="我的晒图"
+            android:textColor="@color/colorselect"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+        <RadioButton
+            android:button="@null"
+            android:id="@+id/my_focus"
+            android:textColor="@color/colorselect"
+            android:text="我的关注"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+
+        <RadioButton
+            android:button="@null"
+            android:id="@+id/my_message"
+            android:text="我的消息"
+            android:textColor="@color/colorselect"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+    </RadioGroup>
+
+
+
+
+
+
+<FrameLayout
+android:id="@+id/fragment_holder_favor"
+android:layout_width="match_parent"
+android:layout_height="400dp"
+    ></FrameLayout>
+
+
+</RelativeLayout>

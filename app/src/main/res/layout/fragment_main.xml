@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.yuejian_22.Fragment.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            style="@style/RadioButtonStyle"
+            android:id="@+id/radio_train"
+            android:text="训练"
+            android:drawableTop="@drawable/select_train"
+            />
+        <RadioButton
+            android:id="@+id/radio_club"
+            android:text="俱乐部"
+            style="@style/RadioButtonStyle"
+            android:drawableTop="@drawable/select_club"
+            />
+        <RadioButton
+            android:id="@+id/radio_home"
+            android:text="主页"
+            style="@style/RadioButtonStyle"
+            android:drawableTop="@drawable/select_home"
+            />
+        <RadioButton
+            android:id="@+id/radio_photo"
+            android:text="晒图"
+            style="@style/RadioButtonStyle"
+            android:drawableTop="@drawable/select_photo"
+            />
+        <RadioButton
+            android:id="@+id/radio_my"
+            android:text="我的"
+            style="@style/RadioButtonStyle"
+            android:drawableTop="@drawable/select_my"
+            />
+    </RadioGroup>
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/framelayout"-->
+
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"></FrameLayout>-->
+
+
+</RelativeLayout>

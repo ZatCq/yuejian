@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="1">
+        <ImageView
+            android:id="@+id/img_club"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"/>
+            <!--android:src="@drawable/club"-->
+
+        <TextView
+            android:id="@+id/club_name"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="111"
+            android:textColor="#fff"
+
+            />
+
+
+
+</FrameLayout>

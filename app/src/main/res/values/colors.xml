@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNormal">	#FFC1C1</color>
+    <color name="colorPressed">#0f0</color>
+    <color name="colorChecked">#000</color>
+    <color name="colorUnChecked">#bfbfbf</color>
+    <color name="colorselect">#ffffff</color>
+    <color name="colorspace">#6E8B3D</color>
+    <color name="colorbackground">#292929</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+</resources>
