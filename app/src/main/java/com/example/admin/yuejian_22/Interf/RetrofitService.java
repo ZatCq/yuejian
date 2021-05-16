@@ -1,14 +1,13 @@
 package com.example.admin.yuejian_22.Interf;
 
-import com.example.admin.yuejian_22.Bean.Club;
 import com.example.admin.yuejian_22.Bean.ClubList;
-import com.example.admin.yuejian_22.Bean.UserInfo;
+import com.example.admin.yuejian_22.Bean.Login;
+import com.example.admin.yuejian_22.Bean.SimpleResult;
 
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Header;
 import retrofit2.http.Query;
 
 /**
@@ -31,5 +30,12 @@ public interface  RetrofitService {
 
 
     );
+    @GET("userRegister.do")
+    Call<SimpleResult> userRegister(@Query("username") String username,
+                                    @Query("userpass") String userpass,
+                                    @Query("mobilenum") String mobilenum);
+    @GET("userLogin.do")
+    Call<Login> userLogin(@Query("username")String username,
+                          @Query("userpass") String userpass);
 
 }
