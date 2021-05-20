@@ -21,14 +21,19 @@ import java.util.List;
 
 public class ClubDListAdapter extends RecyclerView.Adapter {
     private Context context;
-    private List<ClubList> clubListList;
+    private List<ClubList> clubLists;
     private LayoutInflater LayoutInflater;
     public String imageUrl;
 
     public ClubDListAdapter(Context context, List<ClubList> clubListList) {
         this.context = context;
-        this.clubListList= clubListList ;
+        this.clubLists = clubListList;
         LayoutInflater = LayoutInflater.from(context);
+    }
+
+    public void getNearClub(List<ClubList> clubLists)
+    {
+        this.clubLists= clubLists ;
     }
 
     @Override
@@ -37,17 +42,18 @@ public class ClubDListAdapter extends RecyclerView.Adapter {
         return new ViewHolder(v);
     }
 
+
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-
-        ClubList entity = clubListList.get(position);
-        if (null == entity)
-            return;
-        ClubDListAdapter.ViewHolder viewHolder = (ClubDListAdapter.ViewHolder) holder;
-
-//        entity.setClub_name("1111");
+        final  ClubList entity=clubLists.get(position);
+        if (null==entity)return;
+        ViewHolder viewHolder = (ViewHolder) holder;
         viewHolder.club_name_d.setText(entity.getClub_name());
-        Picasso.with(this.context).load("http://172.24.10.175/workout/Uploads/"+ entity.getThumb()).into(viewHolder.img_club_d);
+        if (!entity.getThumb().isEmpty()){
+            Picasso.with(context).load("http://172.24.10.175/workout/Uploads/"+entity.getThumb()).into(viewHolder.img_club_d);
+        }else {
+            viewHolder.img_club_d.setImageResource(R.drawable.ic_club);
+        }
     }
 
 
@@ -65,53 +71,16 @@ public class ClubDListAdapter extends RecyclerView.Adapter {
         }
     }
 
+
     @Override
     public int getItemCount() {
-        return clubListList.size();
+        return clubLists.size();
     }
-//    public List<ClubList> clubListList = new ArrayList<>();
-//    public Context context;
-//    public String imageUrl;
-//    private LayoutInflater layoutInflater;
-//    public ClubDListAdapter(FragmentActivity context, List clubListList){
-//        this.context = context;
-//        layoutInflater = LayoutInflater.from(context);
-//        this.clubListList.addAll(clubListList);
-//    }
-//
-//    @Override
-//    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-//        View itemView = layoutInflater.inflate(R.layout.item_club_d,parent,false);
-//        ClubDItemViewHolder holder=new ClubDItemViewHolder(itemView);
-//        return holder;
-//    }
-//
-//    @Override
-//    public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
-//        ClubDItemViewHolder clubDItemViewHolder = (ClubDItemViewHolder) holder;
-//        final ClubList clubList = clubListList.get(position);
-//        final String clubName = clubList.getClub_name();
-//        String thumb = clubList.getThumb();
-//        String id = clubList.getId();
-//        clubDItemViewHolder.clubdNameView.setText(clubName);
-//        imageUrl = thumb;
-//        System.out.println(imageUrl);
-//        Picasso.with(context).load("http://172.24.10.175/workout/Uploads/"+imageUrl).into(ClubDItemViewHolder.img_club_d);
-//        clubDItemViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(context, "俱乐部详情" + position, Toast.LENGTH_SHORT).show();
-//                Intent intent = new Intent(context, ClubActivity.class);
-//                intent.putExtra("id", clubList.getId());
-//                intent.putExtra("club_name",clubName);
-//
-//                context.startActivity(intent);
-//
-//            }
-//        });
-//    }
-//    @Override
-//    public int getItemCount() {
-//        return clubListList.size();
-//    }
+
 }
+
+
+
+
+
+
