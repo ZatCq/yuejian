@@ -13,7 +13,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     protected static String userId;
 
-    public abstract void onViewCreated(View view, @Nullable Bundle savedInstanceState);
+    public abstract View onViewCreated(View view, @Nullable Bundle savedInstanceState);
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

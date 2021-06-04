@@ -1,8 +1,7 @@
 package com.example.admin.yuejian_22.Interf;
 
 import com.example.admin.yuejian_22.Bean.ClubList;
-import com.example.admin.yuejian_22.Bean.Login;
-import com.example.admin.yuejian_22.Bean.SimpleResult;
+
 
 import java.util.List;
 
@@ -21,23 +20,14 @@ public interface  RetrofitService {
     @GET("lists/mod/club")
     Call<List<ClubList>> getAllClub(
 
-
-
     );
     @GET("nearclub")
     Call<List<ClubList>> getNearClub(
-//            @Query("id") String id,
-//                                     @Query("club_name") String club_name
-
-
-
     );
-    @GET("userRegister.do")
-    Call<SimpleResult> userRegister(@Query("username") String username,
-                                    @Query("userpass") String userpass,
-                                    @Query("mobilenum") String mobilenum);
-    @GET("userLogin.do")
-    Call<Login> userLogin(@Query("username")String username,
-                          @Query("userpass") String userpass);
+    @GET("lists/mod/club")
+    Call<List<ClubList>> getSearchClub(
+            @Query("search") String club_name
+    );
+
 
 }

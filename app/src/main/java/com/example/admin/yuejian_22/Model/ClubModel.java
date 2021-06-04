@@ -5,6 +5,7 @@ import com.example.admin.yuejian_22.Interf.ClubListInterf;
 import com.example.admin.yuejian_22.Interf.RetrofitService;
 import com.example.admin.yuejian_22.Listener.ClubDListListener;
 import com.example.admin.yuejian_22.Listener.ClubListener;
+import com.example.admin.yuejian_22.Listener.ClubSearchListener;
 
 import java.util.List;
 
@@ -72,6 +73,27 @@ public class ClubModel implements ClubListInterf{
             @Override
             public void onFailure(Call<List<ClubList>> call, Throwable t) {
                 clubDListListener.onFail(t.toString());
+            }
+        });
+    }
+
+    @Override
+    public void getSearchClub(String id, String club_name, final ClubSearchListener clubSearchListener) {
+        retrofitService = retrofit.create(RetrofitService.class);
+        Call<List<ClubList>> call =retrofitService.getSearchClub(club_name);
+        call.enqueue(new Callback<List<ClubList>>() {
+            @Override
+            public void onResponse(Call<List<ClubList>> call, Response<List<ClubList>> response) {
+                if (response.isSuccessful() && response.body() != null) {
+                    clubSearchListener.onResponse(response.body());
+                } else {
+                    clubSearchListener.onFail("onresponse fail");
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<ClubList>> call, Throwable t) {
+                clubSearchListener.onFail(t.toString());
             }
         });
     }

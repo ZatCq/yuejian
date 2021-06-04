@@ -5,9 +5,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.admin.yuejian_22.Activity.ClubActivity">
+<LinearLayout
+    android:background="@drawable/club_background"
+    android:id="@+id/Linlayout_1"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
+    <ImageButton
+        android:background="@drawable/club_background"
+    android:src="@drawable/ic_back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+   />
+
+    <TextView
+        android:textSize="25dp"
+        android:text="111"
+        android:gravity="center_horizontal"
+android:id="@+id/club_name_detail"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:background="@drawable/club_background"
+        android:src="@drawable/ic_collect"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <ImageView
+        android:src="@drawable/ic_home"
+        android:layout_below="@+id/Linlayout_1"
+        android:id="@+id/img_club_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <RadioGroup
+        android:layout_below="@+id/img_club_detail"
+        android:background="@drawable/club_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:button="@null"
+            android:id="@+id/my_shaitu"
+            android:text="俱乐部简介"
+            android:textColor="@color/colorselect"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+        <RadioButton
+            android:button="@null"
+            android:id="@+id/my_focus"
+            android:textColor="@color/colorselect"
+            android:text="精品课程"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+
+        <RadioButton
+            android:button="@null"
+            android:id="@+id/my_message"
+            android:text="相关视频"
+            android:textColor="@color/colorselect"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+    </RadioGroup>
 </RelativeLayout>

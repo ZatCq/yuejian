@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_7ef867d4247e1125955c0532a83101ca750b0f9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.9.0_25dde7795e57e14ea86fa3d0798bae1e7d057897\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_cf8cef558d9d7378aa04157c47814d1d015bd243\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.3.0_d87f0bb1ed10cacb40c9bb0fa052cf07fe8d0d54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_68a017deb10043663dbc2d8be75ff18080bf324b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_e564eb5d6b0d056bd5abc9458fdfbb6078b2d5dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_9ee61f5bbbb7eb8834445fb352d17b9b3a30d067\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_9a6bff6e5dafca5407ac604d835ec8091e46c196\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.13.0_6f2a1deafd1cc997754efb7af88da75c4f6baea4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_de9d7c397f0fc1c33642fab1922169748a0ad168\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_5ddedefa776080d9f59dab8c059682f4d0b24fa3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_d8a0c82f5396becd161e1be552e1f5c65a21987b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="974562e87c4c4045706e1aebc0bd830a80da5d3e">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_907eb0ff0aee1c00bdfe4da1d6ff4ab008983ce3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_4a1b9a4d5e1016a5d5795660acc70f8cf7a3e34a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_bfdeec7a2c6b9448444761956fa5bfb062ef1d63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_fd7c90916e2de52df699a1b4272d8898c3539f54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_69d8db7fcf83203a011c142f3045feff02da6aa1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_249f0a7029f83ba255c6d9f61c55becf233856f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="417fd5ef148845de44c3d81eb3850400738aa5b0">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ada78f0152e1aba6eb6274716c48041972deff25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_22368cdf4e005ae56673dc222b14a85e132ad1b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d574c788f528d3776366bd1afc3ad887b7588287\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_f7a16356f61c4176cfb3ef8836a3ba69cba3a398\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_6ba124d70bcc735575296b0fedcbe01162df9098\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="F:\androidpro2\new1010\Yuejian-22\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_6a483a57b4378122e78349f66fabe1a4904e2e7d\classes.dex" />
+    </item>
+
+</items>
