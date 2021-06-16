@@ -21,8 +21,9 @@ public class MainActivity extends BaseActivity {
     private final int mode = MODE_PRIVATE;
 
     @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    public View onViewCreated(View view, @Nullable Bundle savedInstanceState) {
 
+        return view;
     }
 
     @Override

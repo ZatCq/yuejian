@@ -72,7 +72,7 @@ public class RegistActivity extends AppCompatActivity {
 //                            setResult(RESULT_OK,data);
 //                            finish();
 //                        }
-//                    }
+//
 //
 //                    @Override
 //                    public void onFailure(Call<SimpleResult> call, Throwable t) {
